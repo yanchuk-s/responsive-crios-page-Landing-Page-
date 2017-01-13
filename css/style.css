@@ -456,6 +456,8 @@ margin-top: 4%;
 
 /*------------ scrinAppone END------------------*/
 
+
+/*------------ scrinAppone SECOND------------------*/
 .scrinApponeSecond{text-align: center;margin-top: 14%;}
 
 .scrinApponeSecond h1{
@@ -493,4 +495,154 @@ margin-top: 4%;
 
 @media screen and (min-width:1024px){
     .col-6{width: 50%;}
+}
+
+/*------------ scrinAppone SECOND END ------------------*/
+
+
+.MeSection{background-color: #f7f8fb;text-align: center;}
+#snow3{max-width: 100%;  }
+#santa{max-width: 70%; margin-top: -100%;}
+
+.MeSection h1{color: #fe3254; margin-top: 3%;}
+.MeSection p{color: #c6cace; margin-top: 2%;}
+
+@media screen and (min-width:500px){
+    .MeSection h1{color: #fe3254; margin-top: 30%;}
+    
+}
+
+@media screen and (min-width:768px){
+    .MeSection h1{color: #fe3254; margin-top: 30%;}
+    #snow3{max-width: 80%;  }
+    #santa{max-width: 70%; margin-top: -100%;}
+}
+
+#santabtn{ padding: 10px 20px;box-shadow: 0 0 20px rgba(113, 159, 191, 0.9); /* Параметры тени */
+    border-radius: 20px;
+    background:none;
+    border: none;
+    color: white;
+    margin-top: 4%;
+    background-color:rgba(254, 50, 84, 0.8);
+    cursor: pointer;
+   
+}
+
+
+
+.footer{
+	min-height: 100%;
+	height: auto;
+	background: white url(../img/bg3.png) no-repeat center ;
+	 width: 100%;
+    background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+
+	
+}
+
+.contact{margin-top: 10%; font-size: 3em;}
+
+
+
+.fa-instagram,
+.fa-github,
+.fa-facebook,
+.fa-vk {color: black;
+margin-top: 2%; cursor: pointer;
+    margin: 0 0.5%;
+   
+    
+}
+
+.mailstyle{
+margin-top: 4%;
+    width: 70%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    font-family: "Lucida", sans-serif;
+    position: relative;
+    z-index: 1;
+    color: white;
+  
+}
+
+.mailstyle:focus{
+    border: 1px black solid; 
+}
+
+.send{padding: 11px 25px; background-color: white;color: black;
+position: relative;
+    z-index: 2; margin-left: -12%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+.mailstyle{
+margin-top: 4%;
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(224, 221, 235, 0.4);
+    border: none;
+    font-family: "Lucida", sans-serif;
+    position: relative;
+    z-index: 1;
+    color: black;
+  
+}
+
+.mailstyle:focus{
+    border: 1px black solid; 
+}
+
+.send{padding: 11px 35px; background-color: black;color: white;
+position: relative;
+    z-index: 2; margin-left: -11%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+    
+}
+
+@media screen and (min-width:1024px){
+.mailstyle{
+margin-top: 4%;
+    width: 30%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(224, 221, 235, 0.4);
+    border: none;
+    font-family: "Lucida", sans-serif;
+    position: relative;
+    z-index: 1;
+    color: black;
+  
+}
+
+.mailstyle:focus{
+    border: 1px black solid; 
+}
+
+.send{padding: 11px 35px; background-color: black;color: white;
+position: relative;
+    z-index: 2; margin-left: -6%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+    
 }
